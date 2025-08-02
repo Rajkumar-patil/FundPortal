@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', 
   },
-  base: '/', 
+  base: '/', // ensures correct path resolution in production
 })
