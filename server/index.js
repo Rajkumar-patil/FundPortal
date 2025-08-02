@@ -39,5 +39,5 @@ setInterval(() => {
 }, 50 * 1000);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`https://fundportal-1.onrender.com`);
 });
