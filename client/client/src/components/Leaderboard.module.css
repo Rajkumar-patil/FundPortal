@@ -1,0 +1,46 @@
+
+
+.pageWrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  padding-top: 80px; /* Enough space below Navbar */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Because navbar is at top */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-top: 30px;
+}
+
+.boardWrapper {
+  width: 100%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  padding: 2rem;
+  color: white;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tableHeader {
+  color: #1abc9c;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.tableRow:hover {
+ background-color: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.3s ease;
+}
+

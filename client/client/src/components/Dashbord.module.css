@@ -1,0 +1,114 @@
+
+.pageWrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #1e1e2f, #2c3e50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.headingWrapper {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 6px #00ffd0;
+ margin-top: 45px;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #d0fdfa;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.dashboardWrapper {
+  width: 100%;
+  max-width: 850px;
+  border-radius: 20px;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.4);
+  color: #f1f1f1;
+}
+
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 14px;
+  width: 260px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+}
+
+.card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 1.4rem;
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+
+.rewardsSection {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 👈 Add this line */
+}
+
+.rewardsSection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.rewardsSection ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.rewardsSection li {
+  font-size: 1.1rem;
+  color: #f1f1f1;
+  margin-bottom: 0.8rem;
+}
+
+
