@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/user")
+      .get("https://fundportal-1.onrender.com")
       .then((res) => {
         setUserData(res.data);
       })
