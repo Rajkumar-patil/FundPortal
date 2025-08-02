@@ -9,7 +9,7 @@ const Leaderboard = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/leaderboard") // backend URL
+      .get("https://fundportal-1.onrender.com") // backend URL
       .then((res) => setData(res.data))
       .catch((err) => console.error("Error fetching leaderboard:", err));
   }, []);

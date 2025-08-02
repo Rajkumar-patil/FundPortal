@@ -9,7 +9,7 @@ const Dashboard = () => {
   });
 
   useEffect(() => {
-    fetch("http://localhost:5000/user")
+    fetch("https://fundportal-1.onrender.com")
       .then((res) => res.json())
       .then((data) => setUserData(data))
       .catch((err) => console.error("Error fetching user data:", err));
